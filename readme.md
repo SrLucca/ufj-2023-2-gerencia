@@ -1,4 +1,4 @@
-# Repositório das aulas de Gerência-2023/2 - UFJ
+# Repositório das aulas de Gerência-2023/2 - **UFJ**
 
 Neste repositório são encontrados todo o material para estudo da turma de IA-2023/1 da Universidade Federal de Jataí.
 
