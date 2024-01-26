@@ -1,3 +1,4 @@
+import { CreateUserServiceOutputDto } from "./dtos/services/creaate-user.service.dto";
 import { UserDto } from "./dtos/user.dto";
 import { User } from "./user";
 
@@ -6,7 +7,7 @@ export class Service {
         return new Service();
     }
 
-    public async createUser(): Promise<UserDto> {
+    public async createUser(): Promise<CreateUserServiceOutputDto> {
         const user = User.build("John Doe", "johndoe@gmail.com");
 
         return {
