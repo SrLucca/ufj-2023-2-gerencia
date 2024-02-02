@@ -6,5 +6,5 @@ import catalog.domain.catalog.entities.Product;
 
 public interface ProductGateway {
     void save(Product product);
-    List<Product> list();
+    List<Product> listByCatalog(final String catalogId);
 }
