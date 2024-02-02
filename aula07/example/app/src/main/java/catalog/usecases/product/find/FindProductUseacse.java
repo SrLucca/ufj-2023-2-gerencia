@@ -18,7 +18,7 @@ public class FindProductUseacse implements Usecase<FindProductInputDto, FindProd
 
     @Override
     public FindProductOutputDto execute(FindProductInputDto input) {
-        var aProduct = productGateway.findById(input.id());
+        var aProduct = productGateway.find(input.id());
 
         if(aProduct == null) {
             throw new NotfoundException("Product not found");
