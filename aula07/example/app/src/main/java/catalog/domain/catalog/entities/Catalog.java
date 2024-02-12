@@ -34,7 +34,7 @@ public class Catalog extends Entity implements AggregatteRoot {
                 aProducts);
     }
 
-    private void validate() {
+    protected void validate() {
         if (this.getId() == null) {
             throw new DomainException("Catalog id is required");
         }

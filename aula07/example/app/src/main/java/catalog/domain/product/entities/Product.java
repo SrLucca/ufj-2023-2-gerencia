@@ -42,7 +42,7 @@ public class Product extends Entity implements AggregatteRoot {
                 quantity);
     }
 
-    private void validate(){
+    protected void validate(){
         if(this.getId() == null){
             throw new DomainException("Product id is required");
         }
