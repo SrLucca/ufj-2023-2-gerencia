@@ -1,7 +1,8 @@
 package catalog.usecases;
 
+// Command
 public interface Usecase<InputDto, OutputDto>{
     
-    OutputDto execute(InputDto inputDto);
+    OutputDto execute(InputDto input);
 
 }

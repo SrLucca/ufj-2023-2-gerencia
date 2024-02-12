@@ -10,4 +10,6 @@ public abstract class Entity {
     public String getId() {
         return id;
     }
+
+    protected abstract void validate();
 }
