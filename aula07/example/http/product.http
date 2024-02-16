@@ -1,0 +1,13 @@
+###
+POST http://localhost:8000/products/add
+Content-Type: application/json
+
+{
+    "title": "Product 2",
+    "description":"Description 1",
+    "price": 100,
+    "quantity": 10
+}
+
+###
+GET http://localhost:8000/products/316810a9-263c-4cc1-bf42-d5cc7a3044b3

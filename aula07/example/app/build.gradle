@@ -8,7 +8,12 @@
 plugins {
     // Apply the application plugin to add support for building a CLI application in Java.
     id 'application'
+    id 'org.springframework.boot' version '3.2.2'
+    id 'io.spring.dependency-management' version '1.1.4'
 }
+
+group = 'com.gerencia'
+version = '0.0.1-SNAPSHOT'
 
 repositories {
     // Use Maven Central for resolving dependencies.
@@ -16,10 +21,12 @@ repositories {
 }
 
 dependencies {
-    // Use JUnit Jupiter for testing.
-    testImplementation 'org.junit.jupiter:junit-jupiter:5.9.2'
+    // implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    
+    implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.33'
 
-    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 
     // This dependency is used by the application.
     implementation 'com.google.guava:guava:31.1-jre'

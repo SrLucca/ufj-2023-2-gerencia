@@ -1,0 +1,10 @@
+###
+POST http://localhost:8000/catalogs/add
+Content-Type: application/json
+
+{
+  "name": "Catalog 2"
+}
+
+###
+GET http://localhost:8000/catalogs/list

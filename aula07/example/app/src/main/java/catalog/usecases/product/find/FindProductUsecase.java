@@ -4,16 +4,16 @@ import catalog.domain.product.gateway.ProductGateway;
 import catalog.usecases.Usecase;
 import catalog.usecases.exceptions.NotfoundException;
 
-public class FindProductUseacse implements Usecase<FindProductInputDto, FindProductOutputDto> {
+public class FindProductUsecase implements Usecase<FindProductInputDto, FindProductOutputDto> {
 
     private ProductGateway productGateway;
 
-    private FindProductUseacse(ProductGateway productGateway) {
+    private FindProductUsecase(ProductGateway productGateway) {
         this.productGateway = productGateway;
     }
 
-    public static FindProductUseacse create(final ProductGateway aGateway) {
-        return new FindProductUseacse(aGateway);
+    public static FindProductUsecase create(final ProductGateway aGateway) {
+        return new FindProductUsecase(aGateway);
     }
 
     @Override
