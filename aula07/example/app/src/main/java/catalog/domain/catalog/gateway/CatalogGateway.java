@@ -1,4 +1,4 @@
-package catalog.domain.gateway;
+package catalog.domain.catalog.gateway;
 
 import catalog.domain.catalog.entities.Catalog;
 

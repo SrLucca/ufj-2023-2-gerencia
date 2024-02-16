@@ -1,7 +1,7 @@
 package catalog.usecases.catalog.addcatalogproduct;
 
 import catalog.domain.catalog.entities.Product;
-import catalog.domain.gateway.CatalogGateway;
+import catalog.domain.catalog.gateway.CatalogGateway;
 import catalog.domain.product.gateway.ProductGateway;
 import catalog.usecases.Usecase;
 import catalog.usecases.exceptions.NotfoundException;

@@ -1,7 +1,7 @@
 package catalog.infra.repositories.catalog.memory;
 
-import catalog.domain.gateway.CatalogGateway;
 import catalog.domain.catalog.entities.Catalog;
+import catalog.domain.catalog.gateway.CatalogGateway;
 
 import java.util.HashMap;
 import java.util.List;

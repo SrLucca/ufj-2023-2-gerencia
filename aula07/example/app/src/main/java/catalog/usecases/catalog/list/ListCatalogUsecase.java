@@ -2,7 +2,7 @@ package catalog.usecases.catalog.list;
 
 import catalog.domain.catalog.entities.Catalog;
 import catalog.domain.catalog.entities.Product;
-import catalog.domain.gateway.CatalogGateway;
+import catalog.domain.catalog.gateway.CatalogGateway;
 import catalog.usecases.Usecase;
 
 import java.util.List;

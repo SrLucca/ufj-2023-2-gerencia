@@ -1,7 +1,7 @@
 package catalog.usecases.catalog.add;
 
 import catalog.domain.catalog.entities.Catalog;
-import catalog.domain.gateway.CatalogGateway;
+import catalog.domain.catalog.gateway.CatalogGateway;
 import catalog.usecases.Usecase;
 
 public class AddCatalogUsecase implements Usecase<AddCatalogInputDto, AddCatalogOutputDto> {

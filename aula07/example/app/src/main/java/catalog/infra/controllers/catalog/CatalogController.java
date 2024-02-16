@@ -3,7 +3,7 @@ package catalog.infra.controllers.catalog;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import catalog.domain.gateway.CatalogGateway;
+import catalog.domain.catalog.gateway.CatalogGateway;
 import catalog.domain.product.gateway.ProductGateway;
 import catalog.infra.controllers.catalog.dtos.add.AddCatalogRequestDto;
 import catalog.infra.controllers.catalog.dtos.add.AddCatalogResponseDto;
